@@ -15,9 +15,10 @@ def segment_intersection(p1: Point, p2: Point, p3: Point, p4: Point):
     """两条线段是否相交（含端点）"""
     # 实现跨立实验
     
-def segment_distance(p1: Point, p2: Point, p: Point) -> float:
+def segment_distance(p1: Point, p2: Point, p: Point) -> Point:
     """点到线段的最短距离"""
     # 投影法实现
+
     
 def is_point_on_segment(p: Point, a: Point, b: Point) -> bool:
     """点是否在线段上（含端点）"""

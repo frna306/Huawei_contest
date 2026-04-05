@@ -6,9 +6,12 @@ class Point:
         self.y = y
     
     # 向量运算
-    def __add__(self, other): ...
-    def __sub__(self, other): ...
-    def __mul__(self, k): ...
+    def __add__(self, other):
+        return Point(self.x + other.x, self.y + other.y)
+    def __sub__(self, other): 
+        return Point(self.x - other.x, self.y - other.y)
+    def __mul__(self, k): 
+        return Point(self.x * k, self.y * k)
     
     # 点积、叉积（作为方法）
     def dot(self, other):
